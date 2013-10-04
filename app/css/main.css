@@ -336,29 +336,79 @@ table {
   font-weight: normal;
   font-style: normal; }
 
+* {
+  -webkit-transition: all ease-in-out;
+  -webkit-transition-delay: 0.1s;
+  -moz-transition: all ease-in-out 0.1s;
+  -o-transition: all ease-in-out 0.1s;
+  transition: all ease-in-out 0.1s; }
+
+body, h1, h2, h3, h4, h5, h6, a, p {
+  font-family: "gloriola", helvetica, sans-serif; }
+
 body {
   background: url(../images/patterns/debut_light.png); }
 
 .container {
-  margin-top: 30px; }
+  margin-top: 10px; }
 
 h1 {
-  font-family: "gloriola", helvetica, sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   color: #394f62; }
 
+h4 {
+  font-size: 20px;
+  color: #394f62;
+  margin-bottom: 20px; }
+
 .data-wrap {
-  margin-top: 50px; }
+  margin-top: 30px;
+  padding-bottom: 30px; }
+
+rect:nth-child(1) {
+  fill: #00ad98; }
+rect:nth-child(2) {
+  fill: #00b976; }
+rect:nth-child(3) {
+  fill: #2f9fd6; }
+rect:nth-child(4) {
+  fill: #b068c4; }
+rect:nth-child(5) {
+  fill: #3e586b; }
+rect:nth-child(6) {
+  fill: #f9ad29; }
+rect:nth-child(7) {
+  fill: #ef9335; }
+rect:nth-child(8) {
+  fill: #df5a44; }
+rect:nth-child(9) {
+  fill: #9da8a9; }
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none; }
+
+input {
+  border-style: none;
+  background: transparent; }
+
+table {
+  background: white;
+  padding: 0 10px; }
 
 footer {
-  margin-top: 100px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   text-align: center; }
   footer a {
     font-family: "gloriola", helvetica, sans-serif;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 14px;
     color: #666; }
+    footer a:hover {
+      text-decoration: none;
+      color: #999999; }
     footer a span {
       color: #f2654e;
       padding: 0 5px; }
