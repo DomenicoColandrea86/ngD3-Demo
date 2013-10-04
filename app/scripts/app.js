@@ -1,7 +1,7 @@
 'use strict';
 angular.module('myApp', ['myApp.controllers', 'myApp.directives']);
 
-// congif dependency injection
+// config dependency injection
 angular.module('d3', []);
 angular.module('myApp.controllers', []);
 angular.module('myApp.directives', ['d3']);
