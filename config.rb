@@ -1,0 +1,9 @@
+http_path = "/app"
+css_dir = "css"
+sass_dir = "scss"
+images_dir = "images"
+javascripts_dir = "scripts"
+output_style = :nested
+environment = :development
+line_comments = false
+preferred_syntax = :scss

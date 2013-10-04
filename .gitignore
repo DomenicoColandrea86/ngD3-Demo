@@ -1,0 +1,24 @@
+node_modules
+dist
+.tmp
+.sass-cache
+app/bower_components
+
+# Max OSX Stuff
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Basic Git Stuff
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
