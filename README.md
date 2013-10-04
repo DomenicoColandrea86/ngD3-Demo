@@ -1,5 +1,40 @@
 ## an AngularJS and D3.js Demo
 
+#### To use open up your terminal and..
+
+``````
+cd ngD3-Demo
+
+``````
+
+#### and run
+
+``````
+npm install && bower install
+
+``````
+
+##### Start server on localhost:8080
+
+``````
+node server
+
+``````
+
+##### Grunt watch task
+
+``````
+grunt watch
+
+``````
+
+##### Grunt build step
+
+``````
+grunt build
+
+``````
+
 
 #### Using d3 with dependency injection
 
