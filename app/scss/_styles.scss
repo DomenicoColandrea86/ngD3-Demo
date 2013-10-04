@@ -1,3 +1,34 @@
+
 body {
 	background: url(../images/patterns/debut_light.png);
+}
+
+.container {
+  margin-top: 30px;
+}
+
+h1 {
+  @include font-stack-gloriola;
+  font-size: 40px;
+  color: #394f62;
+}
+
+.data-wrap {
+  margin-top: 50px;
+}
+
+footer {
+  margin-top: 100px;
+  padding-bottom: 20px;
+  text-align: center;
+  a {
+    @include font-stack-gloriola;
+    text-decoration: none;
+    font-size: 17px;
+    color: #666;
+    span {
+      color: #f2654e;
+      padding: 0 5px;
+    }
+  }
 }

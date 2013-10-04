@@ -6,18 +6,25 @@
   <title>A d3 and AngularJS Demo</title>
   <meta name="description" content="A PetFlow demo built with AngularJS">
   <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
   <!-- build:css css/main.css -->
   <link rel="stylesheet" href="css/main.css"/>
    <!-- endbuild -->
 </head>
 <body>
-
-  <div class="container" ng-view=""></div>
-
+  <div class="container" ng-view></div>
+  <footer>
+    <a href="http://www.github.com/domenicocolandrea86" target="_blank">
+      Made with<span class="fontawesome-heart"></span>by Domenico Colandrea
+    </a>
+  </footer>
   <script src="/bower_components/angular/angular.min.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <!-- build:js scripts/scripts.js -->
-  <script src="/scripts/app.js"></script>
+  <script src="scripts/app.js"></script>
+  <script src="scripts/services/d3.js"></script>
+  <script src="scripts/controllers/demoCtrl.js"></script>
+  <script src="scripts/directives/directives.js"></script>
   <!-- endbuild -->
 </body>
 </html>

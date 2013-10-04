@@ -12,6 +12,10 @@
   font-family: 'omnes_light', helvetica, sans-serif;
 }
 
+@mixin font-stack-gloriola {
+  font-family: 'gloriola', helvetica, sans-serif;
+}
+
 @mixin background-gradient($color1, $color2) {
   @include filter-gradient($color1, $color2, horizontal); // IE6-9
   @include background-image(linear-gradient(left,  $color1 0%, $color2 100%));

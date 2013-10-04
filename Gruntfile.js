@@ -123,7 +123,7 @@ module.exports = function (grunt) {
     'concat:dist',
     'copy:dist',
     'ngmin',
-    'uglify:dist',
+    // 'uglify:dist',
     'usemin'
   ]);
 

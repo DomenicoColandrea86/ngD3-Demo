@@ -1,6 +1,13 @@
 'use strict';
-var myApp = angular.module('myApp', [])
-  .config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
+angular.module('myApp', ['myApp.controllers', 'myApp.directives']);
+
+// congif dependency injection
+angular.module('d3', []);
+angular.module('myApp.controllers', []);
+angular.module('myApp.directives', ['d3']);
+
+
+  angular.module('myApp', ['myApp.controllers', 'myApp.directives']).config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
 	$routeProvider
 		.when('/', {
 			templateUrl: 'views/main.html'
