@@ -117,19 +117,19 @@ module.exports = function (grunt) {
 
   // grunt `build` task
   grunt.registerTask('build', [
-    // 'jshint',
+     'jshint',
     'useminPrepare',
     'compass:dist',
     'concat:dist',
     'copy:dist',
     'ngmin',
-    // 'uglify:dist',
+    'uglify:dist',
     'usemin'
   ]);
 
   // grunt `default`
   grunt.registerTask('default', [
-    // 'jshint',
+    'jshint',
     'watch'
   ]);
 };
