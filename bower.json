@@ -6,7 +6,8 @@
   ],
   "main": "app/scripts/app.js",
   "keywords": [
-    "angular"
+    "angular",
+    "D3"
   ],
   "license": "MIT",
   "private": true,
