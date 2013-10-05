@@ -23,7 +23,7 @@ module.exports = function (grunt) {
         separator: ';'
       },
       dist: {
-        src: ['app/bower_components/spinjs/spin.js', 'app/scripts/**/*.js'],
+        src: ['app/scripts/**/*.js'],
         dest: 'dist/scripts/scripts.js'
       }
     },
