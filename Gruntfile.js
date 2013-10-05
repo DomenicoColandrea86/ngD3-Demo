@@ -118,7 +118,11 @@ module.exports = function (grunt) {
 
   // grunt `build` task
   grunt.registerTask('build', [
+<<<<<<< HEAD
     'jshint',
+=======
+     'jshint',
+>>>>>>> 789339269518a7f7331251cd5116d90c2f61e448
     'useminPrepare',
     'compass:dist',
     'concat:dist',
