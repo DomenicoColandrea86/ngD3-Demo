@@ -4,14 +4,14 @@
   angular.module('myApp.controllers')
     .controller('DemoCtrl', ['$scope', function($scope){
       $scope.d3Data = [
-        {name: 'Roberto', score:91, color: 'green'},
+        {name: 'Domenico', score:100},
+        {name: 'Roberto', score:80, color: 'green'},
         {name: 'Maria', score:96},
         {name: 'Francesca', score: 48},
         {name: 'Andrea', score:75},
         {name: 'Vincenzo', score:86},
-        {name: 'Silvana', score: 100},
-        {name: 'Giovanni', score:98},
-        {name: 'Domenico', score:63},
+        {name: 'Silvana', score: 10},
+        {name: 'Giovanni', score:56},
         {name: 'Sandra', score: 28}
       ];
     }]);
