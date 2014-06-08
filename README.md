@@ -65,5 +65,3 @@ angular.module('myApp.directives', ['d3'])
 
 `<div d3-bars bar-height="20" bar-padding="5"></div>`
 
-
-###[Click Here for Live Demo](http://domenicocolandrea.com/ngd3)
